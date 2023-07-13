@@ -6,7 +6,7 @@ def sum_digit(n)
   end
 end
 
-p sum_digit(111)
-p sum_digit(1111111111)
-p sum_digit(11111111111)
-p sum_digit(111111111111111111111111111111)
+# p sum_digit(111)
+# p sum_digit(1111111111)
+# p sum_digit(11111111111)
+# p sum_digit(111111111111111111111111111111)
