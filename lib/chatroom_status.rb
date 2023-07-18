@@ -1,6 +1,5 @@
 
 def chatroom_status(users)
-    #if users empty return "no one online"
     if users.empty?
         return "no one online"
     elsif users.length == 1

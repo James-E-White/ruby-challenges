@@ -6,8 +6,8 @@ def add_odd_to_n(n)
     sum
 end
 
-#p add_odd_to_n(5)
-#p add_odd_to_n(13)
+p add_odd_to_n(5)
+p add_odd_to_n(13)
 
 
 def add_even_to_n(n)
@@ -18,4 +18,4 @@ def add_even_to_n(n)
     sum
 end
 
-#p add_even_to_n(10)
+p add_even_to_n(10)
