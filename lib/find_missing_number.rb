@@ -1,6 +1,6 @@
 def find_missing_number(numbers)
   complete_array = (1..20).to_a
-  missing_number = complete_array - numbers
+  complete_array - numbers
 end
 
 
