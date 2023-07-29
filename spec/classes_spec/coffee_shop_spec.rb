@@ -13,7 +13,7 @@ RSpec.describe CoffeeShop do
   end
   it 'exists' do
     expect(@cs_1).to be_an_instance_of(CoffeeShop)
-    expect(@cs_1.name).to eq("James CoffeeShop")
+    expect(@cs_1.name).to eq('James CoffeeShop')
   end
   describe '#add_order' do
     it 'adds orders correctly' do
@@ -21,6 +21,16 @@ RSpec.describe CoffeeShop do
       expect(@cs_1.add_order('cinnamon roll')).to eq('Order added!')
       expect(@cs_1.add_order('iced coffee')).to eq('Order added!')
       expect(@cs_1.orders).to eq(['cinnamon roll', 'iced coffee'])
+    end
+  end
+
+  describe '#fulfill_order' do
+    it 'fulfills the orders correctly' do
+      @cs_1.add_order('cinnamon roll')
+      @cs_1.add_order('iced coffee')
+      expect(@cs_1.fulfill_order).to eq('The cinnamon roll is ready!')
+      expect(@cs_1.fulfill_order).to eq('The iced coffee is ready!')
+      expect(@cs_1.fulfill_order).to eq('No orders to fulfill!')
     end
   end
 end

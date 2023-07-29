@@ -18,4 +18,14 @@ class CoffeeShop
             'Sorry, this item is unavailable.'
         end
     end
+
+    def fulfill_order
+        if @orders.empty?
+            "No orders to fulfill!"
+        else
+            order_to_fulfill = orders.shift
+            "The #{order_to_fulfill} is ready!"
+        end
+    end
+
 end
