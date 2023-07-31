@@ -33,4 +33,11 @@ RSpec.describe CoffeeShop do
       expect(@cs_1.fulfill_order).to eq('No orders to fulfill!')
     end
   end
+
+  describe '#cheapest_item' do
+    it 'returns the cheapest_item' do
+
+      expect(@cs_1.cheapest_item).to eq('lemon tea')
+    end
+  end
 end
