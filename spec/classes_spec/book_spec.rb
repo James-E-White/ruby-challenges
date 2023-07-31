@@ -21,15 +21,15 @@ RSpec.describe Book do
     expect(@wp.author).to eq('Leo Tolstoy')
   end
 
-  describe '#get_title' do 
-    it 'returns the title' do 
-        expect(@pp.get_title).to eq("Title: Pride and Prejudice")
+  describe '#get_title' do
+    it 'returns the title' do
+      expect(@pp.get_title).to eq('Title: Pride and Prejudice')
     end
   end
 
-  describe '#get_author' do 
+  describe '#get_author' do
     it 'returns the author' do
-      expect(@pp.get_author).to eq("Author: Jane Austen")  
+      expect(@pp.get_author).to eq('Author: Jane Austen')
     end
   end
 end

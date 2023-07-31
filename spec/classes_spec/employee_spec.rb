@@ -1,11 +1,11 @@
-require './lib/classes/employee'
+require './lib/classes/employees'
 
-RSpec.describe Employee do
+RSpec.describe Employees do
   before :each do
-    @emp_1 = Employee.new('John', 'Smith')
+    @emp_1 = Employees.new('John', 'Smith')
   end
   it 'exists' do
-    expect(@emp_1).to be_an_instance_of(Employee)
+    expect(@emp_1).to be_an_instance_of(Employees)
   end
   describe '#fullname' do
     it 'returns the employees full name' do
