@@ -32,4 +32,9 @@ class CoffeeShop
     cheapest = @menu.min_by { |menu_item| menu_item[:price] }
     cheapest[:item]
   end
+
+  def expensive_item
+    expensive = @menu.max_by { |menu_item| menu_item[:price] }
+    expensive[:item]
+  end
 end

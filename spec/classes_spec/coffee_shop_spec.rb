@@ -36,8 +36,13 @@ RSpec.describe CoffeeShop do
 
   describe '#cheapest_item' do
     it 'returns the cheapest_item' do
-
       expect(@cs_1.cheapest_item).to eq('lemon tea')
+    end
+  end
+
+    describe '#expensive_item' do
+    it 'returns the expensive_item' do
+      expect(@cs_1.expensive_item).to eq('vanilla chai latte')
     end
   end
 end
