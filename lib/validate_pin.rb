@@ -9,3 +9,5 @@ end
 p validate_pin(1234)
 p validate_pin(123456)
 p validate_pin(1234567)
+p validate_pin(1234567)
+p validate_pin(8673)
