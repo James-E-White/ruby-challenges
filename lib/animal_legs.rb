@@ -6,3 +6,6 @@ def animal_legs(chickens, cows, pigs)
      return "Buy some animals!"
     end
 end
+
+puts animal_legs(2, 3, 5) # 36
+puts animal_legs(1, 2, 1) # 10  
