@@ -10,19 +10,20 @@ RSpec.describe Person do
   it 'exist' do
     expect(@p1).to be_an_instance_of(Person)
   end
-   describe '#initialize' do
-    it 'has the corerect name' do
-      expect(@p1.name).to eq('James')
-    end
-      it 'has the correct age' do
-        expect(@p1.age).to eq(45)
-    end
+  describe '#initialize'do
+   it 'has the corerect name' do
+     expect(@p1.name).to eq('James')
    end
+   it 'has the correct age' do
+     expect(@p1.age).to eq(45)
+   end
+  end
 
-   describe '#compare_age' do 
-    it 'compares age and gives correct statement' do 
-        expect(@p1.compare_age(@p2)).to eq("Joel is younger than me.")
-        expect(@p1.compare_age(@p4)).to eq("Allan is the same age as me.")
-    end
+
+  describe '#compare_age' do 
+   it 'compares age and gives correct statement' do 
+      expect(@p1.compare_age(@p2)).to eq("Joel is younger than me.")
+      expect(@p1.compare_age(@p4)).to eq("Allan is the same age as me.")
    end
+  end
 end
