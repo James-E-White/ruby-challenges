@@ -1,4 +1,4 @@
-require './lib/gcd'
+require_relative '../lib/gcd'
 
 RSpec.describe 'gcd' do 
     it 'gives the greatest common divisor' do 

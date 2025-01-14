@@ -1,4 +1,4 @@
-require './lib/age_to_days'
+require_relative  '../lib/age_to_days'
 
 RSpec.describe 'age_in_days' do
   it 'gives the age in days' do
