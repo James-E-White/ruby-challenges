@@ -1,4 +1,4 @@
-require './lib/animal_legs'
+require_relative '../lib/animal_legs'
 
 RSpec.describe 'animal_legs' do
   it 'returns the total number of legs' do
