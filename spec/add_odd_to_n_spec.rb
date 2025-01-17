@@ -1,4 +1,4 @@
-require './lib/add_odd_to_n'
+require_relative '../lib/add_odd_to_n'
 
 RSpec.describe 'add_odd_to_n and add_even_to_n' do
   it 'adds all the odd numbers from 1 to n' do

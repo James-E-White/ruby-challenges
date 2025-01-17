@@ -1,4 +1,4 @@
-require './lib/array_multiples'
+require_relative '../lib/array_multiples'
 
 RSpec.describe 'array_multiples' do
   it 'multiplies the number by the length you set' do
