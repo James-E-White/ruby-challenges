@@ -1,4 +1,4 @@
-require './lib/equal_numbers'
+require_relative '../lib/equal_numbers'
 
 RSpec.describe 'equal_numbers' do
     it 'returns true if the numbers are equal' do

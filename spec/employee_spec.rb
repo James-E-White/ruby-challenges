@@ -1,4 +1,4 @@
-require './lib/classes/employees'
+require_relative '../lib/employees'
 
 RSpec.describe Employees do
   before :each do
