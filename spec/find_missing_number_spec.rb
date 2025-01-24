@@ -1,4 +1,4 @@
-require './lib/classes/find_missing_number'
+require_relative '../lib/find_missing_number'
 
 RSpec.describe 'find_missing_number' do
   it 'finds the missing integers' do

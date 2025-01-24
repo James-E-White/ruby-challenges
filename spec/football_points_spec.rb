@@ -1,4 +1,4 @@
-require './lib/football_points'
+require_relative '../lib/football_points'
 
 RSpec.describe 'football_points' do
     it 'returns the total points of a team' do
