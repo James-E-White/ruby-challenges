@@ -1,4 +1,4 @@
-require './lib/classes/person'
+require_relative '../lib/person'
 
 RSpec.describe Person do
   before :each do
@@ -18,8 +18,6 @@ RSpec.describe Person do
      expect(@p1.age).to eq(45)
    end
   end
-
-
   describe '#compare_age' do 
    it 'compares age and gives correct statement' do 
       expect(@p1.compare_age(@p2)).to eq("Joel is younger than me.")
