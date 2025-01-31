@@ -1,13 +1,6 @@
 def first_element(array)
-    array.first
+  array.first
 end
 
-p first_element(["love", "earth", "fire", "water"])
+p first_element(['%w love earth fire water'])
 
-
-
-# def first_element(array)
-#     array.first
-# end
-
-# p first_element(["love", "earth", "fire", "water"])

@@ -8,4 +8,7 @@ RSpec.describe 'sum_digit' do
     it 'returns the number if only single digit provided' do 
         expect(sum_digit(7)).to eq(7)
     end
+    it 'returns "Enter a number" if no number is provided' do
+        expect(sum_digit(0)).to eq('Enter a number')
+    end
 end

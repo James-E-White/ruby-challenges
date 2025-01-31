@@ -3,6 +3,9 @@ def sum_digit(n)
     return n
   else
     return (n % 10) + sum_digit(n / 10)
+  else
+    n = 0
+    puts "Enter a number"
   end
 end
 

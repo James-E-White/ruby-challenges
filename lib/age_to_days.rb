@@ -1,9 +1,9 @@
 def age_in_days(num)
-    if num < 0 
-        puts "Please enter a valid age"
-    else
-        days_age = num * 365
-    end
+  if num < 0 
+    puts "Please enter a valid age"
+  else
+    num * 365
+  end
 end
 
 p age_in_days(10)

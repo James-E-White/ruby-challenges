@@ -10,9 +10,11 @@ def common_elements(arr1, arr2)
             pointer2 += 1
         elsif arr1[pointer1] < arr2[pointer2]
             pointer1 += 1
-        else
+        elsif
             pointer2 += 1
         end
+            common.empty?
+            puts "No common elements"
     end
     common
 end

@@ -1,4 +1,5 @@
 class Employees
+  
   def initialize(first, last)
     @first = first
     @last = last

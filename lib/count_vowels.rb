@@ -8,14 +8,19 @@
 # Output: 3
 
 def count_vowels(string)
-    vowels = "aeiou"
-    string.downcase.count(vowels)
+  vowels = "aeiou"
+  count = string.downcase.count(vowels)
+  return count if count > 0  
+  'No vowels'                
 end
+
 
 p count_vowels("Hello World!")
 
 def count_consonants(cons)
     consonants = "bcdfghjklmnpqrstvwxyz"
-    cons.downcase.count(consonants)
+    count = cons.downcase.count(consonants)
+    return count if count > 0
+    'No consonants'
 end
 p count_consonants("Hello World!")
