@@ -6,4 +6,9 @@ RSpec.describe 'unlucky' do
     new_array = remove_divisible_by_13(numbers)
     expect(new_array).to eq([22, 30, 44, 84, 99])
   end
+  it 'returns "Enter a number" if no number is provided' do
+    numbers = []
+    new_array = remove_divisible_by_13(numbers)
+    expect(new_array).to eq('Enter a number')
+  end
 end
